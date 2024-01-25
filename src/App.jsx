@@ -1,7 +1,14 @@
-
+import Homepage from "./components/homepage/Homepage";
+import Login from "./components/auth/Login";
 
 const App = () => {
-    return <div>App</div>;
+    const isAuthenticated = true;
+
+    return (
+        <div>
+            {isAuthenticated ? <Homepage /> : <Login />}
+        </div>
+    )
 };
 
 export default App;
