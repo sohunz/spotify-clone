@@ -4,24 +4,29 @@ import { VscLibrary } from "react-icons/vsc";
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 import { HiOutlineListBullet } from "react-icons/hi2";
 import { GoPlus } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
     return (
         <div className="lg:min-w-[23vw] md:min-w-[15px] sm:min-w-[15px] rounded-lg fixed">
             <header className=" bg-[#1a1a1a] mb-3 rounded-lg p-5 font-bold flex lg:justify-start md:justify-center justify-center">
                 <ul className="flex flex-col gap-5 items-center">
-                    <li className="flex items-center gap-5 cursor-pointer">
-                        <GoHomeFill size={27} />
-                        <span className="lg:block md:hidden sm:hidden hidden">
-                            Home
-                        </span>
-                    </li>
-                    <li className="flex items-center gap-5 cursor-pointer">
-                        <IoSearch size={27} />
-                        <span className="lg:block md:hidden sm:hidden hidden">
-                            Search
-                        </span>
-                    </li>
+                    <Link to="/">
+                        <li className="flex items-center gap-5 cursor-pointer">
+                            <GoHomeFill size={27} />
+                            <span className="lg:block md:hidden sm:hidden hidden">
+                                Home
+                            </span>
+                        </li>
+                    </Link>
+                    <Link to="/search">
+                        <li className="flex items-center gap-5 cursor-pointer">
+                            <IoSearch size={27} />
+                            <span className="lg:block md:hidden sm:hidden hidden">
+                                Search
+                            </span>
+                        </li>
+                    </Link>
                 </ul>
             </header>
 
@@ -67,7 +72,7 @@ const Sidebar = () => {
                                     alt=""
                                 />
                             </div>
-                            <div className="font-bold lg:block md:hidden sm:hidden hidden">
+                            <div className="lg:block md:hidden sm:hidden hidden">
                                 <p>Travis Scott</p>
                                 <p>Playlist</p>
                             </div>
@@ -79,7 +84,7 @@ const Sidebar = () => {
                                     alt=""
                                 />
                             </div>
-                            <div className="font-bold lg:block md:hidden sm:hidden hidden">
+                            <div className="lg:block md:hidden sm:hidden hidden">
                                 <p className="font-bold lg:block md:hidden sm:hidden hidden">
                                     Sad Vibe
                                 </p>
@@ -95,7 +100,7 @@ const Sidebar = () => {
                                     alt=""
                                 />
                             </div>
-                            <div className="font-bold lg:block md:hidden sm:hidden hidden">
+                            <div className=" lg:block md:hidden sm:hidden hidden">
                                 <p className="font-bold lg:block md:hidden sm:hidden hidden">
                                     Taylor Swift
                                 </p>
@@ -111,7 +116,7 @@ const Sidebar = () => {
                                     alt=""
                                 />
                             </div>
-                            <div className="font-bold lg:block md:hidden sm:hidden hidden">
+                            <div className=" lg:block md:hidden sm:hidden hidden">
                                 <p className="font-bold lg:block md:hidden sm:hidden hidden">
                                     The Weeknd
                                 </p>
@@ -127,7 +132,7 @@ const Sidebar = () => {
                                     alt=""
                                 />
                             </div>
-                            <div className="font-bold lg:block md:hidden sm:hidden hidden">
+                            <div className=" lg:block md:hidden sm:hidden hidden">
                                 <p className="font-bold lg:block md:hidden sm:hidden hidden">
                                     Chilling Beach
                                 </p>
