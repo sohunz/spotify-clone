@@ -30,7 +30,7 @@ const Sidebar = () => {
                 </ul>
             </header>
 
-            <div className="w-full min-h-[80vh] bg-[#1a1a1a] rounded-lg p-5 flex flex-col lg:items-start md:items-center items-center">
+            <div className="w-full h-[466px] bg-[#1a1a1a] rounded-lg p-5 flex flex-col lg:items-start md:items-center items-center overflow-scroll ">
                 <div className=" flex lg:justify-between md:justify-center sm:justify-center justify-center lg:pb-5 md:pb-1 sm:pb-1 pb-1  w-full">
                     <p className="flex items-center gap-3 cursor-pointer font-bold">
                         <VscLibrary size={27} />
@@ -137,6 +137,66 @@ const Sidebar = () => {
                                     Chilling Beach
                                 </p>
                                 <p className="text-[14px] lg:block md:hidden sm:hidden hidden ">
+                                    Playlist
+                                </p>
+                            </div>
+                        </li>
+                        <li className="w-full flex lg:justify-start md:justify-center sm:justify-center justify-center gap-3 py-2 rounded-md hover:bg-[#1f1f1f] transition-300 cursor-pointer">
+                            <div className="max-h-[50px] max-w-[50px] rounded-md overflow-hidden">
+                                <img
+                                    src="https://i.scdn.co/image/ab67706f00000002d4b123e7ae0a84047ab62164"
+                                    alt=""
+                                />
+                            </div>
+                            <div className=" lg:block md:hidden sm:hidden hidden">
+                                <p className="font-bold lg:block md:hidden sm:hidden hidden">
+                                    Taylor Swift
+                                </p>
+                                <p className="text-[14px] lg:block md:hidden sm:hidden hidden">
+                                    Playlist
+                                </p>
+                            </div>
+                        </li>
+                        <li className=" w-full flex lg:justify-start md:justify-center sm:justify-center justify-center gap-3 py-2 rounded-md hover:bg-[#1f1f1f] transition-300 cursor-pointer ">
+                            <div className="max-h-[50px] max-w-[50px] rounded-md overflow-hidden">
+                                <img
+                                    src="https://i.scdn.co/image/ab67706c0000da844231efe5dc16b345991bb040"
+                                    alt=""
+                                />
+                            </div>
+                            <div className="lg:block md:hidden sm:hidden hidden">
+                                <p>Travis Scott</p>
+                                <p>Playlist</p>
+                            </div>
+                        </li>
+                        <li className="w-full flex lg:justify-start md:justify-center sm:justify-center justify-center gap-3 py-2 rounded-md hover:bg-[#1f1f1f] transition-300 cursor-pointer">
+                            <div className="max-h-[50px] max-w-[50px] rounded-md overflow-hidden">
+                                <img
+                                    src="https://i.scdn.co/image/ab67706f00000002d4b123e7ae0a84047ab62164"
+                                    alt=""
+                                />
+                            </div>
+                            <div className=" lg:block md:hidden sm:hidden hidden">
+                                <p className="font-bold lg:block md:hidden sm:hidden hidden">
+                                    Taylor Swift
+                                </p>
+                                <p className="text-[14px] lg:block md:hidden sm:hidden hidden">
+                                    Playlist
+                                </p>
+                            </div>
+                        </li>
+                        <li className=" w-full flex lg:justify-start md:justify-center sm:justify-center justify-center  gap-3 py-2 rounded-md hover:bg-[#1f1f1f] transition-300 cursor-pointer">
+                            <div className="max-h-[50px] max-w-[50px] rounded-md overflow-hidden">
+                                <img
+                                    src="https://i.pinimg.com/474x/c2/60/02/c2600292c5bd667563da20534d9458bf.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div className="lg:block md:hidden sm:hidden hidden">
+                                <p className="font-bold lg:block md:hidden sm:hidden hidden">
+                                    Sad Vibe
+                                </p>
+                                <p className="text-[14px] lg:block md:hidden sm:hidden hidden">
                                     Playlist
                                 </p>
                             </div>
